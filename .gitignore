@@ -1,5 +1,6 @@
 # Custom
-
+.env
+dump
 # Logs
 logs
 *.log
