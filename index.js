@@ -33,5 +33,6 @@ app.listen(process.env.PORT, err => {
   }
   console.log(`Server running on port: ${process.env.PORT}`);
   console.log(`Environment: ${process.env.NODE_ENV}`);
+  console.log(`Environment: ${process.env.DB_URL}`);
 });
 
