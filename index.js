@@ -13,6 +13,10 @@ require('./config/databases');
 
 middlewares(app);
 
+app.get('/test',(req,res)=> {
+  res.json({message:'App is running'})
+})
+
 app.use('/api/v1/', ApiRoutes);
 
 if (process.env.NODE_ENV == 'production') {
